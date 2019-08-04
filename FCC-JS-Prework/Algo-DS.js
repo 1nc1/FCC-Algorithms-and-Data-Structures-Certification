@@ -17,5 +17,11 @@ let count = "";
       break;
     case 4:
       count += 1;
-
+  }
 // not finished with above algorithm
+
+function sayHello(name) {
+    console.log("Hello" + name);
+}
+
+// added bracket colors for better scope recognizability
