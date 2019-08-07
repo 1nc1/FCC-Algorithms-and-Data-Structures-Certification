@@ -11,4 +11,8 @@
 
 -------------------------------------------------------------------------
 
+**FCC-JS-PREWORK** is for practicing algorithms and data structures.
+
+-------------------------------------------------------------------------
+
 **If you would like to participate** : https://learn.freecodecamp.org/
