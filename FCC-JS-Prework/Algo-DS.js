@@ -43,10 +43,25 @@
 //     }
 // //     Only change code above this line
 //   }
-// test above algorithm
-
+// // test above algorithm
+// cc(2), cc(10);
 // function sayHello(name) {
 //     console.log("Hello" + name);
 // }
 
 // added bracket colors for better scope recognizability
+
+function fizzbuzz() {
+  var sum = 0;
+  for(let i = 1; i < 100; i++) {
+    if(i % 3 === 0) {
+      console.log('fizz');
+    } else {
+      console.log(i);
+    }
+  }
+
+  return sum;
+}
+
+console.log(fizzbuzz());
