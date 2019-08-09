@@ -89,3 +89,15 @@
 
 // console.log(sum_odd_5000());
 
+// Write a function that returns the sum of all
+// the values within an array.
+
+// function iterArr(arr) {
+//   let sum = 0;
+//   for(let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+
+// console.log(iterArr([1,2,5]));
