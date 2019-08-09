@@ -46,12 +46,46 @@
 // cc(2), cc(10);
 // }
 
-function iterArr(arr) {
-  var sum = 0;
-  for(let i = 0; i < arr.length; i++) {
-    sum += arr[i];
-  }
-  return sum;
-}
+// Write a function that returns array that logs 1-255.
 
-console.log(iterArr([1,2,5]));
+// function get_array() {
+//   let arr = [];
+//   for(let i = 1; i < 256; i++) {
+//     arr.push(i);
+//   }
+
+//   return arr;
+// }
+
+// console.log(get_array());
+
+// Write a function that would get the sum of all
+// the even numbers from 1 to 1000.
+
+// function sum_even_numbers() {
+//   let sum = 0;
+//   for(let i = 1; i < 1001; i++) {
+//     if(i % 2 === 0) {
+//       sum += i;
+//     }
+//   }
+//   return sum;
+// }
+
+// console.log(sum_even_numbers());
+
+// Write a function that returns the sum of all
+// the odd numbers from 1 to 5000.
+
+// function sum_odd_5000() {
+//   let sum = 0;
+//   for(let i = 1; i < 5001; i++) {
+//     if(i % 2 !== 0) {
+//       sum += i;
+//     }
+//   }
+//   return sum;
+// }
+
+// console.log(sum_odd_5000());
+
