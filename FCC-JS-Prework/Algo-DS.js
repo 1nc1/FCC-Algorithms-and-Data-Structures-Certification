@@ -58,7 +58,7 @@
 // }
 
 // console.log(get_array());
-
+// --------------------------------------------------------------------------------------------------------------
 // Write a function that would get the sum of all
 // the even numbers from 1 to 1000.
 
@@ -73,7 +73,7 @@
 // }
 
 // console.log(sum_even_numbers());
-
+// --------------------------------------------------------------------------------------------------------------
 // Write a function that returns the sum of all
 // the odd numbers from 1 to 5000.
 
@@ -88,7 +88,7 @@
 // }
 
 // console.log(sum_odd_5000());
-
+// --------------------------------------------------------------------------------------------------------------
 // Write a function that returns the sum of all
 // the values within an array.
 
@@ -101,7 +101,7 @@
 // }
 
 // console.log(iterArr([1,2,5]));
-
+// --------------------------------------------------------------------------------------------------------------
 // Given an array with multiple values, write a
 // function that returns the maximum number
 // in the array.
@@ -117,3 +117,20 @@
 // }
 
 // console.log(findMax([6,34,-9]));
+// --------------------------------------------------------------------------------------------------------------
+// Given an array with multiple values, write a
+// function that returns the average of the values
+// in the array.
+
+function findAvg(arr) {
+  let sum = 0;
+  let avg = 0;
+  for(let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  avg = sum / arr.length;
+
+  return avg;
+}
+
+console.log(findAvg([2,16,23,89]));
