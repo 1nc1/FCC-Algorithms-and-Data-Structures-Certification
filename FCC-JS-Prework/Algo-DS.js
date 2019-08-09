@@ -101,3 +101,19 @@
 // }
 
 // console.log(iterArr([1,2,5]));
+
+// Given an array with multiple values, write a
+// function that returns the maximum number
+// in the array.
+
+// function findMax(arr) {
+//   let max = 0;
+//   for(let i = 0; i < arr.length; i++) {
+//     if(arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// }
+
+// console.log(findMax([6,34,-9]));
