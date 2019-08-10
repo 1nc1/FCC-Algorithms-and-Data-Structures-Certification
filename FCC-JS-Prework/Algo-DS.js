@@ -122,15 +122,31 @@
 // function that returns the average of the values
 // in the array.
 
-function findAvg(arr) {
-  let sum = 0;
-  let avg = 0;
-  for(let i = 0; i < arr.length; i++) {
-    sum += arr[i];
-  }
-  avg = sum / arr.length;
+// function findAvg(arr) {
+//   let sum = 0;
+//   let avg = 0;
+//   for(let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   avg = sum / arr.length;
 
-  return avg;
-}
+//   return avg;
+// }
 
-console.log(findAvg([2,16,23,89]));
+// console.log(findAvg([2,16,23,89]));
+// --------------------------------------------------------------------------------------------------------------
+// Write a function that would return an array
+// of all the odd numbers between 1 and 50.
+
+// function oddNumbers() {
+//   let arr = [];
+//   for(let i = 1; i < 51; i++) {
+//     if(i % 2 !== 0) {
+//       arr.push(i);
+//     }
+//   }
+//   return arr;
+// }
+
+// console.log(oddNumbers());
+// --------------------------------------------------------------------------------------------------------------
