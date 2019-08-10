@@ -150,3 +150,18 @@
 
 // console.log(oddNumbers());
 // --------------------------------------------------------------------------------------------------------------
+// Given value of Y, write a function that takes an array and
+// returns the number of values that are greater than Y.
+
+// function greaterY(arr, Y) {
+//     let count = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > Y) {
+//             count ++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(greaterY([1,3,5,7],3));
+// --------------------------------------------------------------------------------------------------------------
