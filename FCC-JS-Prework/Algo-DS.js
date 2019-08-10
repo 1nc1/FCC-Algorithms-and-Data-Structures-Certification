@@ -169,11 +169,27 @@
 // that replaces each value in the array with the product
 // of the original value multiplied by itself.
 
-function squareVal(arr) {
-    for(let i = 0; i < arr.length; i++) {
-        arr[i] *= arr[i];
-    }
-    return arr;
-}
+// function squareVal(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+//         arr[i] *= arr[i];
+//     }
+//     return arr;
+// }
 
-console.log(squareVal([1,5,10,2]));
+// console.log(squareVal([1,5,10,2]));
+// --------------------------------------------------------------------------------------------------------------
+// Given an array with multiple values, write a function
+// that replaces any negative numbers within the array
+// with the value of 0.
+
+// function noNeg(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] < 0) {
+//             arr[i] = 0;
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(noNeg([3,8,-6,22,-2]));
+// --------------------------------------------------------------------------------------------------------------
