@@ -236,3 +236,19 @@
 // }
 
 // console.log(swap([7,23,-4,9]));
+// --------------------------------------------------------------------------------------------------------------
+// Write a function that takes an array of numbers and
+// replaces any negative values within the array with
+// the string 'Dojo'.
+
+// function numToStr(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] < 0) {
+//             arr[i] = 'Dojo';
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(numToStr([5,13,-5,-9,32]));
+// --------------------------------------------------------------------------------------------------------------
