@@ -225,4 +225,14 @@
 
 // console.log(maxMinAvg([2,6,17,42]));
 // --------------------------------------------------------------------------------------------------------------
+// Write a function that will swap the first and last values
+// of any given array.
 
+// function swap(arr) {
+//     let temp = arr[0];
+//     arr[0] = arr[arr.length - 1];
+//     arr[arr.length - 1] = temp;
+//     return arr;
+// }
+
+// console.log(swap([7,23,-4,9]));
