@@ -193,3 +193,36 @@
 
 // console.log(noNeg([3,8,-6,22,-2]));
 // --------------------------------------------------------------------------------------------------------------
+// Given an array with multiple values, write a function
+// that returns a new array that only contains the
+// maximum, minimum, and average values of the original array.
+
+// function maxMinAvg(arr) {
+//     let arrnew = [];
+//     let max = 0;
+//     let min = 0;
+//     let sum = 0;
+//     let avg = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] < min) {
+//             min = arr[i];
+//         }
+//     }
+//     for(let i = 0; i < arr.length; i++) {
+//         sum += i;
+//         avg = sum / arr.length;
+//     }
+//     arrnew.push(max);
+//     arrnew.push(min);
+//     arrnew.push(avg);
+//     return arrnew;
+// }
+
+// console.log(maxMinAvg([2,6,17,42]));
+// --------------------------------------------------------------------------------------------------------------
+
