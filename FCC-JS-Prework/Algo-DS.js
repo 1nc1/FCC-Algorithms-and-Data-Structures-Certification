@@ -252,3 +252,12 @@
 
 // console.log(numToStr([5,13,-5,-9,32]));
 // --------------------------------------------------------------------------------------------------------------
+// let obj = {
+//     key1 : 'value1',
+//     key2 : 'value2',
+//     key3 : 'value3'
+// };
+
+// console.log(obj[2]);
+// Have to study object manipulation more in order
+// to come up with faster solutions to leetcode problems.
