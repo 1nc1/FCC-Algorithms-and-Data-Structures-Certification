@@ -11,7 +11,7 @@
 
 -------------------------------------------------------------------------
 
-**FCC-JS-PREWORK** is for practicing algorithms and data structures.
+**FCC-JS-Prework** holds some necessary algorithms and data structures.
 
 -------------------------------------------------------------------------
 
