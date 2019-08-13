@@ -261,3 +261,6 @@
 // console.log(obj[2]);
 // Have to study object manipulation more in order
 // to come up with faster solutions to leetcode problems.
+
+// I will first learn brute force solutions in order to get
+// a better understanding of logic within algorithms.
