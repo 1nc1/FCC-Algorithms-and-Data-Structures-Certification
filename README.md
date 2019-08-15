@@ -11,7 +11,7 @@
 
 -------------------------------------------------------------------------
 
-**FCC-JS-Prework** holds some necessary algorithms and data structures to start the projects.
+**FCC-JS-Prework** carries necessary algorithms and data structures to start the projects.
 
 -------------------------------------------------------------------------
 
