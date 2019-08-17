@@ -290,4 +290,43 @@
 // --------------------------------------------------------------------------------------------------------------
 // Using FOR, print multiples of 3 from -300 to 0. Skip -3 and -6.
 
+// for(let i = -300; i <= 0; i++) {
+//     if(i % 3 === 0) {
+//         if(i === -3 || i === -6) {
+//             continue;
+//         } else {
+//             console.log(i);
+//         }
+//     }
+// }
 
+// --------------------------------------------------------------------------------------------------------------
+// Print integers from 2000 to 5280, using a WHILE.
+
+// var i = 2000;
+
+// while(i < 5281) {
+//     console.log(i);
+//     i++;
+// }
+
+// --------------------------------------------------------------------------------------------------------------
+// If 2 given numbers represent your birth month and day
+// in either order, log "How did you know?", else log
+// "Just another day...."
+
+// function birthdayLog(b1, b2) {
+//     var day = 24;
+//     var month = 2;
+//     if(b1 === day || b2 === day) {
+//         if(b1 === month || b2 === month) {
+//             console.log('How did you know?');
+//         } else {
+//             console.log('Just another day....');
+//         }
+//     }
+// }
+
+// console.log(birthdayLog(3,24));
+
+// --------------------------------------------------------------------------------------------------------------
