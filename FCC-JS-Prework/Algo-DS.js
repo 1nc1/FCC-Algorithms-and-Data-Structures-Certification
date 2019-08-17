@@ -256,12 +256,38 @@
 // --- END OF FCC ALGORITHMS ---
 // --------------------------------------------------------------------------------------------------------------
 // --------------------------------------------------------------------------------------------------------------
+
+// --- BOOTCAMP ALGORITHMS ---
+
 // Set myNumber to 42. Set myName to your name.
 // Now swap myNumber into myName & vice versa.
+
 // var myNumber = 42;
 // var myName = 'Name';
 // var temp = myNumber;
 // myNumber = myName;
 // myName = temp;
+
 // console.log(myName, myNumber);
 // --------------------------------------------------------------------------------------------------------------
+// Print integers from -52 to 1066 using a FOR loop.
+
+// for(let i = -52; i < 1067; i++) {
+//     console.log(i);
+// }
+
+// --------------------------------------------------------------------------------------------------------------
+// Create beCheerful(). Within it, console.log string "good morning!", call it 98 times.
+
+// function beCheerful() {
+//     for(let i = 1; i < 99; i++) {
+//         console.log('good morning!');
+//     }
+// }
+
+// beCheerful();
+
+// --------------------------------------------------------------------------------------------------------------
+// Using FOR, print multiples of 3 from -300 to 0. Skip -3 and -6.
+
+
