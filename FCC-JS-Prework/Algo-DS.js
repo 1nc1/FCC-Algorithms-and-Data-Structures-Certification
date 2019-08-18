@@ -369,12 +369,37 @@
 // Print integers 1 to 100. If divisible by 5, print "Coding" instead.
 // If by 10, also print " Dojo"
 
-for(let i = 0; i < 101; i++) {
-    if(i % 5 === 0 && i % 10 === 0) {
-        console.log('Coding Dojo');
-    } else if(i % 5 === 0) {
-        console.log('Coding');
-    } else {
-        console.log(i);
-    }
-}
+// for(let i = 0; i < 101; i++) {
+//     if(i % 5 === 0 && i % 10 === 0) {
+//         console.log('Coding Dojo');
+//     } else if(i % 5 === 0) {
+//         console.log('Coding');
+//     } else {
+//         console.log(i);
+//     }
+// }
+// --------------------------------------------------------------------------------------------------------------
+// Your function will be given an input parameter "incoming".
+// Please console.log this value.
+
+// function inc(incoming) {
+//     console.log(incoming);
+// }
+
+// inc('Coding Dojo');
+// --------------------------------------------------------------------------------------------------------------
+// Add odd integers from -300,000 to 300,000 and console.log
+// the final sum. Is there a shortcut?
+
+// function oddIntegers() {
+//     var sum = 0;
+//     for(let i = -300000; i < 300001; i++) {
+//         if(i % 2 !== 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+
+// console.log(oddIntegers());
+// --------------------------------------------------------------------------------------------------------------
