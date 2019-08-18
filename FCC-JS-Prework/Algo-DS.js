@@ -275,7 +275,6 @@
 // for(let i = -52; i < 1067; i++) {
 //     console.log(i);
 // }
-
 // --------------------------------------------------------------------------------------------------------------
 // Create beCheerful(). Within it, console.log string "good morning!", call it 98 times.
 
@@ -286,7 +285,6 @@
 // }
 
 // beCheerful();
-
 // --------------------------------------------------------------------------------------------------------------
 // Using FOR, print multiples of 3 from -300 to 0. Skip -3 and -6.
 
@@ -309,7 +307,6 @@
 //     console.log(i);
 //     i++;
 // }
-
 // --------------------------------------------------------------------------------------------------------------
 // If 2 given numbers represent your birth month and day
 // in either order, log "How did you know?", else log
@@ -328,5 +325,21 @@
 // }
 
 // console.log(birthdayLog(3,24));
+// --------------------------------------------------------------------------------------------------------------
+// Write a function that determines wether a given year
+// is a leap year. If a year is divisible by four,
+// it is a leap year, unless it is divisible by 100.
+// However, if it is divisible by 400, then it is.
 
+// function leapYearCheck(givenYear) {
+//     if(givenYear % 4 === 0) {
+//         if(givenYear % 100 !== 0) {
+//             console.log('leap year');
+//         } else {
+//             console.log('not a leap year.');
+//         }
+//     }
+// }
+
+// leapYearCheck(1800);
 // --------------------------------------------------------------------------------------------------------------
