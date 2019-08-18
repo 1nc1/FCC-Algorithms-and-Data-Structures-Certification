@@ -346,12 +346,23 @@
 // Print all integer multiples of 5, from 512 to 4096.
 // Afterward, also log how many there were.
 
-var howMany = [];
-for(let i = 512; i < 4097; i++) {
-    if(i % 5 === 0) {
-        console.log(i);
-        howMany.push(i);
-    }
-}
+// var howMany = [];
+// for(let i = 512; i < 4097; i++) {
+//     if(i % 5 === 0) {
+//         console.log(i);
+//         howMany.push(i);
+//     }
+// }
 
-console.log(howMany.length);
+// console.log(howMany.length);
+// --------------------------------------------------------------------------------------------------------------
+// Print multiples of 6 up to 60,000 using a WHILE.
+
+// var i = 0;
+// while(i < 60001) {
+//     i++
+//     if(i % 6 === 0) {
+//         console.log(i);
+//     }
+// }
+// --------------------------------------------------------------------------------------------------------------
