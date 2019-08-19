@@ -403,3 +403,98 @@
 
 // console.log(oddIntegers());
 // --------------------------------------------------------------------------------------------------------------
+// Log positive numbers starting at 2016, counting down
+// by fours (exclude 0), without a FOR loop.
+
+// var startN = 2016;
+
+// while(startN > 1) {
+//     console.log(startN);
+//     startN -= 4;
+// }
+// --------------------------------------------------------------------------------------------------------------
+// Given lowNum, highNum, mult, print multiples of mult from
+// highNum down to lowNum, using a FOR.
+
+// function flexCount(lowNum, highNum, mult) {
+//     for(highNum = highNum; highNum > lowNum; highNum--) {
+//         if(highNum % mult === 0) {
+//             console.log(highNum);
+//         }
+//     }
+// }
+
+// flexCount(2,9,3);
+// --------------------------------------------------------------------------------------------------------------
+// Given 4 parameters (param1, param2, param3, param4), print the multiples
+// of param1, starting at param2 and extending to param3. One exception:
+// if a multiple is equal to param 4, then don't print it. Do this using
+// a WHILE.
+
+// function finalCount(param1, param2, param3, param4) {
+//     while(param2 < param3) {
+//         param2++;
+//         if(param2 % param1 === 0) {
+//             if(param2 === param4) {
+//                 continue;
+//             } else {
+//                 console.log(param2);
+//             }
+//         }
+//     }
+// }
+
+// finalCount(3,5,17,9);
+// --------------------------------------------------------------------------------------------------------------
+// Create a function that accepts a number as an input. Return
+// a new array that counts down by one, from the number down to 0.
+// How long is this array?
+
+// function arrCountdown(n) {
+//     arr = [];
+//     for(n = n; n >= 0; n--) {
+//         arr.push(n);
+//     }
+//     return arr;
+// }
+
+// console.log(arrCountdown(5));
+// The length of this array would be the value of n + 1.
+// --------------------------------------------------------------------------------------------------------------
+// Your function will receive an array with two numbers.
+// Print the first value, and return the second.
+
+// function printNreturn(n1, n2) {
+//     console.log(n1);
+//     return n2;
+// }
+
+// printNreturn(4,6);
+// --------------------------------------------------------------------------------------------------------------
+// Given an array, return the sum of the first value in the array,
+// plus the array's length. What happens if the array's first value
+// is not a number, but a string or a boolean.
+
+// function firstPlusLength(arr) {
+//     var sum = '';
+//     sum = arr[0] + arr.length;
+//     return sum;
+// }
+
+// console.log(firstPlusLength(['dojo',7,3]));
+// --------------------------------------------------------------------------------------------------------------
+// For [1,3,5,7,9,13], print values that are greater than its 2nd value.
+// Return how many values this is.
+
+// function vGreaterThan2nd(arr) {
+//     howManyV = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > arr[1]) {
+//             howManyV++;
+//         }
+//     }
+//     return howManyV;
+// }
+
+// console.log(vGreaterThan2nd([1,3,5,7,9,13]));
+// --------------------------------------------------------------------------------------------------------------
