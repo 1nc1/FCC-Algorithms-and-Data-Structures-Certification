@@ -259,6 +259,10 @@
 
 // --- BOOTCAMP ALGORITHMS ---
 
+// PAGE 18
+
+// Setting and Swapping
+
 // Set myNumber to 42. Set myName to your name.
 // Now swap myNumber into myName & vice versa.
 
@@ -270,12 +274,16 @@
 
 // console.log(myName, myNumber);
 // --------------------------------------------------------------------------------------------------------------
+// Print -52 to 1066
+
 // Print integers from -52 to 1066 using a FOR loop.
 
 // for(let i = -52; i < 1067; i++) {
 //     console.log(i);
 // }
 // --------------------------------------------------------------------------------------------------------------
+// Don’t Worry, Be Happy
+
 // Create beCheerful(). Within it, console.log string "good morning!", call it 98 times.
 
 // function beCheerful() {
@@ -286,6 +294,8 @@
 
 // beCheerful();
 // --------------------------------------------------------------------------------------------------------------
+// Multiples of Three – but Not All
+
 // Using FOR, print multiples of 3 from -300 to 0. Skip -3 and -6.
 
 // for(let i = -300; i <= 0; i++) {
@@ -299,6 +309,8 @@
 // }
 
 // --------------------------------------------------------------------------------------------------------------
+// Printing Integers with While
+
 // Print integers from 2000 to 5280, using a WHILE.
 
 // var i = 2000;
@@ -308,6 +320,8 @@
 //     i++;
 // }
 // --------------------------------------------------------------------------------------------------------------
+// You Say It’s Your Birthday
+
 // If 2 given numbers represent your birth month and day
 // in either order, log "How did you know?", else log
 // "Just another day...."
@@ -326,6 +340,8 @@
 
 // console.log(birthdayLog(3,24));
 // --------------------------------------------------------------------------------------------------------------
+// Leap Year
+
 // Write a function that determines wether a given year
 // is a leap year. If a year is divisible by four,
 // it is a leap year, unless it is divisible by 100.
@@ -343,6 +359,8 @@
 
 // leapYearCheck(1800);
 // --------------------------------------------------------------------------------------------------------------
+// Print and Count
+
 // Print all integer multiples of 5, from 512 to 4096.
 // Afterward, also log how many there were.
 
@@ -356,6 +374,8 @@
 
 // console.log(howMany.length);
 // --------------------------------------------------------------------------------------------------------------
+// Multiples of Six
+
 // Print multiples of 6 up to 60,000 using a WHILE.
 
 // var i = 0;
@@ -366,6 +386,8 @@
 //     }
 // }
 // --------------------------------------------------------------------------------------------------------------
+// Counting, the Dojo Way
+
 // Print integers 1 to 100. If divisible by 5, print "Coding" instead.
 // If by 10, also print " Dojo"
 
@@ -379,6 +401,8 @@
 //     }
 // }
 // --------------------------------------------------------------------------------------------------------------
+// What Do You Know?
+
 // Your function will be given an input parameter "incoming".
 // Please console.log this value.
 
@@ -388,6 +412,8 @@
 
 // inc('Coding Dojo');
 // --------------------------------------------------------------------------------------------------------------
+// Whoa, That's Sucker's Huge...
+
 // Add odd integers from -300,000 to 300,000 and console.log
 // the final sum. Is there a shortcut?
 
@@ -403,6 +429,8 @@
 
 // console.log(oddIntegers());
 // --------------------------------------------------------------------------------------------------------------
+// Countdown by Fours
+
 // Log positive numbers starting at 2016, counting down
 // by fours (exclude 0), without a FOR loop.
 
@@ -413,6 +441,8 @@
 //     startN -= 4;
 // }
 // --------------------------------------------------------------------------------------------------------------
+// Flexible Countdown
+
 // Given lowNum, highNum, mult, print multiples of mult from
 // highNum down to lowNum, using a FOR.
 
@@ -426,6 +456,8 @@
 
 // flexCount(2,9,3);
 // --------------------------------------------------------------------------------------------------------------
+// The Final Countdown
+
 // Given 4 parameters (param1, param2, param3, param4), print the multiples
 // of param1, starting at param2 and extending to param3. One exception:
 // if a multiple is equal to param 4, then don't print it. Do this using
@@ -446,6 +478,10 @@
 
 // finalCount(3,5,17,9);
 // --------------------------------------------------------------------------------------------------------------
+// PAGE 20
+
+// Countdown
+
 // Create a function that accepts a number as an input. Return
 // a new array that counts down by one, from the number down to 0.
 // How long is this array?
@@ -461,6 +497,8 @@
 // console.log(arrCountdown(5));
 // The length of this array would be the value of n + 1.
 // --------------------------------------------------------------------------------------------------------------
+// Print and Return
+
 // Your function will receive an array with two numbers.
 // Print the first value, and return the second.
 
@@ -471,6 +509,8 @@
 
 // printNreturn(4,6);
 // --------------------------------------------------------------------------------------------------------------
+// First Plus Length
+
 // Given an array, return the sum of the first value in the array,
 // plus the array's length. What happens if the array's first value
 // is not a number, but a string or a boolean.
@@ -483,11 +523,13 @@
 
 // console.log(firstPlusLength(['dojo',7,3]));
 // --------------------------------------------------------------------------------------------------------------
+// Values Greater than Second
+
 // For [1,3,5,7,9,13], print values that are greater than its 2nd value.
 // Return how many values this is.
 
 // function vGreaterThan2nd(arr) {
-//     howManyV = 0;
+//     var howManyV = 0;
 //     for(let i = 0; i < arr.length; i++) {
 //         if(arr[i] > arr[1]) {
 //             howManyV++;
@@ -498,3 +540,136 @@
 
 // console.log(vGreaterThan2nd([1,3,5,7,9,13]));
 // --------------------------------------------------------------------------------------------------------------
+// Values Greater than Second, Generalized
+
+// Write a function that accepts any array, and returns a new array
+// with the array values that are greater than its 2nd value.
+// Print how many values this is. What will you do if the array
+// is only one element long?
+
+// function vGreaterThan2nd2(arr) {
+//     var arrnew = [];
+//     var howManyV2 = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > arr[1]) {
+//             arrnew.push(arr[i]);
+//         }
+//         if(arr.length === 1) {
+//             console.log('Array only contains one element.');
+//         }
+//     }
+//     howManyV2 = arrnew.length;
+//     return howManyV2;
+// }
+
+// console.log(vGreaterThan2nd2([1,3,5,7,9,13]));
+// --------------------------------------------------------------------------------------------------------------
+// This length, That Value
+
+// Given two numbers, return array of length num1 with each value num2.
+// Print "Jinx!" if they are same.
+
+// I don't understand what this is asking of me, sorry!
+// --------------------------------------------------------------------------------------------------------------
+// Fit the First Value
+
+// function fitTheFirstValue(arr) {
+//     if(arr[0] > arr.length) {
+//         console.log('Too big!');
+//     } else if(arr[0] < arr.length) {
+//         console.log('Too small!');
+//     } else {
+//         console.log('Just right!');
+//     }
+// }
+
+// fitTheFirstValue([5,3,1,6,8]);
+// --------------------------------------------------------------------------------------------------------------
+// Fahrenheit to Celsius
+
+// Kelvin wants to convert between temperature scales. Create
+// fahrenheitToCelsius(fDegrees) that accepts a number of degrees
+// in Fahrenheit, and returns the equivalent temperature as expressed
+// in Celsius degrees. For review, Fahrenheit = (9 / 5 * Celsius) + 32.
+
+// function fahrenheitToCelsius(fDegrees) {
+//     return (fDegrees - 32) * 5 / 9;
+// }
+
+// console.log(fahrenheitToCelsius(67.8));
+// --------------------------------------------------------------------------------------------------------------
+// Celsius to Fahrenheit
+
+// Create celsiusToFahrenheit(cDegrees) that accepts number of degrees Celsius,
+// and returns the equivalent temperature expressed in Fahrenheit degrees.
+
+// function celsiusToFahrenheit(cDegrees) {
+//     return (cDegrees * 9 / 5) + 32;
+// }
+
+// console.log(celsiusToFahrenheit(20.5));
+// --------------------------------------------------------------------------------------------------------------
+// PAGE 22
+
+// Biggie Size
+
+// Given an array, write a function that changes all positive numbers in the array
+// to "big".
+
+// function bigSize(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > 0) {
+//             arr[i] = 'big';
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(bigSize([-1,3,5,-5]));
+// --------------------------------------------------------------------------------------------------------------
+// Print Low, Return High
+
+// Create a function that takes array of numbers. The function should
+// print the lowest value in the array, and return the highest value
+// in the array.
+
+// function pLowrHigh(arr) {
+//     var min = 0;
+//     var max = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] < min) {
+//             min = arr[i];
+//             console.log(min);
+//         }
+//         if(arr[i] > max) {
+//             max = arr[i];
+//             return max;
+//         }
+//     }
+// }
+
+// console.log(pLowrHigh([-5,6,78]));
+// --------------------------------------------------------------------------------------------------------------
+// Print One, Return Another
+
+// Build a function that takes array of numbers. The function should
+// print second-to-last value in the array, and return first odd value
+// in the array.
+
+// function pOnerAnother(arr) {
+//     var fOddValue = 0;
+//     console.log(arr[arr.length - 2]);
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] % 2 !== 0) {
+//             fOddValue = arr[i];
+//             break;
+//         }
+//     }
+//     return fOddValue;
+// }
+
+// console.log(pOnerAnother([2,6,3,7,34,56]));
+// --------------------------------------------------------------------------------------------------------------
+
+
+
