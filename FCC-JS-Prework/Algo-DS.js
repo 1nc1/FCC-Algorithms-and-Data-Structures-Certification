@@ -670,6 +670,141 @@
 
 // console.log(pOnerAnother([2,6,3,7,34,56]));
 // --------------------------------------------------------------------------------------------------------------
+// Double Vision
+
+// Given array, create a function to return a new array where each value in
+// the original has been doubled. Calling double([1,2,3]) should return
+// [2,4,6] without changing original.
+
+// function dblVision(arr) {
+//     var arrnew = [];
+//     var dblValue = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         dblValue = arr[i] * 2;
+//         arrnew.push(dblValue);
+//     }
+//     return arrnew;
+// }
+
+// console.log(dblVision([1,2,3]));
+// --------------------------------------------------------------------------------------------------------------
+// Count Positives
+
+// Given array of numbers, create function to replace last value with number
+// of positive values. Example, countPositives([-1,1,1,1])
+// changes array to [-1,1,1,3] and returns it
+
+// function countPositives(arr) {
+//     var posValues = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] > 0) {
+//             posValues++;
+//         }
+//     }
+//     arr[arr.length - 1] = posValues;
+//     return arr;
+// }
+
+// console.log(countPositives([-1,1,1,1]));
+// --------------------------------------------------------------------------------------------------------------
+// Evens and Odds
+
+// Create a function that accepts an array. Every time that array has three odd values
+// in a row, print "That's odd!". Every time the array has three evens in a row,
+// print "Even more so!"
+
+// function evensAndOdds(arr) {
+//     var oCount = 0;
+//     var eCount = 0;
+//     for(let i = 0; i < arr.length; i++) {
+//         if(arr[i] % 2 !== 0) {
+//             oCount++;
+//         } else {
+//             oCount = 0;
+//         }
+//         if(arr[i] % 2 === 0) {
+//             eCount++;
+//         } else {
+//             eCount = 0;
+//         }
+//         if(oCount === 3) {
+//             console.log("That's odd!");
+//         }
+//         if(eCount === 3) {
+//             console.log("Even more so!");
+//         }
+//     }
+// }
+
+// evensAndOdds([3,6,8,3,7,9,10,13,15,26,79,23,45,8,12,16]);
+// --------------------------------------------------------------------------------------------------------------
+// Increment the Seconds
+
+// Given arr, add 1 to odd elements ([1], [3], etc.), console.log all
+// values and return arr.
+
+// function incrementSeconds(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+//         if(arr[i] % 2 !== 0) {
+//             arr[i] += 1;
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(incrementSeconds([5,6,7,8,19,23,10,16]));
+// --------------------------------------------------------------------------------------------------------------
+// Previous Lengths
+
+// You are passed an array containing strings.
+// Working within that same array, replace each
+// string with a number – the length of the string at
+// previous array index – and return the array
+
+// function pLengths(arr) {
+//     var pStringToNum = 0;
+//     for(let i = 1; i < arr.length; i++) {
+//         for(let j = i + 1; j < arr.length; j++) { // Might need to add arr.length + 1
+//             arr[j] = arr[i].length;
+//             console.log(arr[j]);
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(pLengths(['hero','coding','exempt','extraordinary']));
+// --------------------------------------------------------------------------------------------------------------
+// Add Seven to Most
+
+// Build function that accepts array. Return a new array with all values
+// except first, adding 7 to each. Do not alter the original array.
+
+// function add7toMost(arr) {
+//     var arrnew = [];
+//     for(let i = 0; i < arr.length; i++) {
+//         arrnew.push(arr[i] + 7);
+//     }
+//     var removed = arrnew.shift();
+//     return arrnew;
+// }
+
+// console.log(add7toMost([1,1,1,5,5,9,3]));
+// --------------------------------------------------------------------------------------------------------------
+// Reverse Array
+
+// Given array. write a function to reverse values, in-place.
+// Example: reverse([3,1,6,4,2]) returns same array, containing [2,4,6,1,3].
+
+// function reverseArray(arr) {
+//     for(let i = 0; i < arr.length; i++) {
+
+//     }
+// }
+
+// NOT FINISHED / WILL RESUME TOMORROW
+
+
 
 
 
