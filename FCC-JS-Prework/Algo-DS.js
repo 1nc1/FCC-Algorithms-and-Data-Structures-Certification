@@ -805,4 +805,19 @@
 
 
 
+// Given an array, move all values to the left, and last value should be 0
+
+function move(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i+1];
+    }
+    arr[arr.length - 1] = 0;
+    return arr;
+}
+
+console.log(move([-4,6,19,43,-3]));
+
+
+
+
 
